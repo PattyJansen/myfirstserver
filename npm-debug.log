@@ -1,0 +1,1326 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'express' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'express@3.x', null ]
+6 verbose cache add name=undefined spec="express@3.x" args=["express@3.x",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express@3.x',
+7 verbose parsed url   path: 'express@3.x',
+7 verbose parsed url   href: 'express@3.x' }
+8 verbose cache add name="express" spec="3.x" args=["express","3.x"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '3.x',
+9 verbose parsed url   path: '3.x',
+9 verbose parsed url   href: '3.x' }
+10 verbose addNamed [ 'express', '3.x' ]
+11 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+12 silly lockFile 3a341b85-express-3-x express@3.x
+13 verbose lock express@3.x /Users/Pets/.npm/3a341b85-express-3-x.lock
+14 silly addNameRange { name: 'express', range: '>=3.0.0-0 <4.0.0-0', hasData: false }
+15 verbose url raw express
+16 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+17 verbose url resolved https://registry.npmjs.org/express
+18 info trying registry request attempt 1 at 21:02:32
+19 verbose etag "173DZ34SMD1HSWGI0N8WKBM83"
+20 http GET https://registry.npmjs.org/express
+21 info retry will retry, error on last attempt: Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+22 info trying registry request attempt 2 at 21:02:42
+23 verbose etag "173DZ34SMD1HSWGI0N8WKBM83"
+24 http GET https://registry.npmjs.org/express
+25 info retry will retry, error on last attempt: Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+26 info trying registry request attempt 3 at 21:03:42
+27 verbose etag "173DZ34SMD1HSWGI0N8WKBM83"
+28 http GET https://registry.npmjs.org/express
+29 silly registry.get cb [ 304, undefined ]
+30 verbose etag express from cache
+31 silly addNameRange number 2 { name: 'express', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+32 silly addNameRange versions [ 'express',
+32 silly addNameRange   [ '0.14.0',
+32 silly addNameRange     '0.14.1',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3',
+32 silly addNameRange     '1.0.4',
+32 silly addNameRange     '1.0.5',
+32 silly addNameRange     '1.0.6',
+32 silly addNameRange     '1.0.7',
+32 silly addNameRange     '1.0.8',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.1.1',
+32 silly addNameRange     '2.2.0',
+32 silly addNameRange     '2.2.1',
+32 silly addNameRange     '2.2.2',
+32 silly addNameRange     '2.3.0',
+32 silly addNameRange     '2.3.1',
+32 silly addNameRange     '2.3.2',
+32 silly addNameRange     '2.3.3',
+32 silly addNameRange     '2.3.4',
+32 silly addNameRange     '2.3.5',
+32 silly addNameRange     '2.3.6',
+32 silly addNameRange     '2.3.7',
+32 silly addNameRange     '2.3.8',
+32 silly addNameRange     '2.3.9',
+32 silly addNameRange     '2.3.10',
+32 silly addNameRange     '2.3.11',
+32 silly addNameRange     '2.3.12',
+32 silly addNameRange     '2.4.0',
+32 silly addNameRange     '2.4.1',
+32 silly addNameRange     '2.4.2',
+32 silly addNameRange     '2.4.3',
+32 silly addNameRange     '2.4.4',
+32 silly addNameRange     '2.4.5',
+32 silly addNameRange     '2.4.6',
+32 silly addNameRange     '2.4.7',
+32 silly addNameRange     '2.5.0',
+32 silly addNameRange     '2.5.1',
+32 silly addNameRange     '2.5.2',
+32 silly addNameRange     '2.5.3',
+32 silly addNameRange     '2.5.4',
+32 silly addNameRange     '2.5.5',
+32 silly addNameRange     '2.5.6',
+32 silly addNameRange     '2.5.7',
+32 silly addNameRange     '2.5.8',
+32 silly addNameRange     '2.5.9',
+32 silly addNameRange     '2.5.10',
+32 silly addNameRange     '2.5.11',
+32 silly addNameRange     '3.0.0',
+32 silly addNameRange     '3.0.1',
+32 silly addNameRange     '3.0.2',
+32 silly addNameRange     '3.0.3',
+32 silly addNameRange     '3.0.4',
+32 silly addNameRange     '3.0.5',
+32 silly addNameRange     '3.0.6',
+32 silly addNameRange     '3.1.0',
+32 silly addNameRange     '3.1.1',
+32 silly addNameRange     '3.1.2',
+32 silly addNameRange     '3.2.0',
+32 silly addNameRange     '3.2.1',
+32 silly addNameRange     '3.2.2',
+32 silly addNameRange     '3.2.3',
+32 silly addNameRange     '3.2.4',
+32 silly addNameRange     '3.2.5',
+32 silly addNameRange     '3.2.6',
+32 silly addNameRange     '3.3.0',
+32 silly addNameRange     '3.3.1',
+32 silly addNameRange     '3.3.2',
+32 silly addNameRange     '3.3.3',
+32 silly addNameRange     '3.3.4',
+32 silly addNameRange     '3.3.5',
+32 silly addNameRange     '3.3.6',
+32 silly addNameRange     '1.0.0-beta',
+32 silly addNameRange     '1.0.0-beta2',
+32 silly addNameRange     '1.0.0-rc',
+32 silly addNameRange     '1.0.0-rc2',
+32 silly addNameRange     '1.0.0-rc3',
+32 silly addNameRange     '1.0.0-rc4',
+32 silly addNameRange     '2.0.0-beta',
+32 silly addNameRange     '2.0.0-beta2',
+32 silly addNameRange     '2.0.0-beta3',
+32 silly addNameRange     '2.0.0-rc',
+32 silly addNameRange     '2.0.0-rc2',
+32 silly addNameRange     '2.0.0-rc3',
+32 silly addNameRange     '3.0.0-alpha1',
+32 silly addNameRange     '3.0.0-alpha2',
+32 silly addNameRange     '3.0.0-alpha3',
+32 silly addNameRange     '3.0.0-alpha4',
+32 silly addNameRange     '3.0.0-alpha5',
+32 silly addNameRange     '3.0.0-beta1',
+32 silly addNameRange     '3.0.0-beta2',
+32 silly addNameRange     '3.0.0-beta3',
+32 silly addNameRange     '3.0.0-beta4',
+32 silly addNameRange     '3.0.0-beta6',
+32 silly addNameRange     '3.0.0-beta7',
+32 silly addNameRange     '3.0.0-rc1',
+32 silly addNameRange     '3.0.0-rc2',
+32 silly addNameRange     '3.0.0-rc3',
+32 silly addNameRange     '3.0.0-rc4',
+32 silly addNameRange     '3.0.0-rc5',
+32 silly addNameRange     '3.3.7',
+32 silly addNameRange     '3.3.8',
+32 silly addNameRange     '3.4.0',
+32 silly addNameRange     '3.4.1',
+32 silly addNameRange     '3.4.2',
+32 silly addNameRange     '3.4.3',
+32 silly addNameRange     '3.4.4',
+32 silly addNameRange     '3.4.5',
+32 silly addNameRange     '3.4.6',
+32 silly addNameRange     '3.4.7',
+32 silly addNameRange     '3.4.8',
+32 silly addNameRange     '4.0.0-rc1',
+32 silly addNameRange     '4.0.0-rc2',
+32 silly addNameRange     '3.5.0',
+32 silly addNameRange     '4.0.0-rc3',
+32 silly addNameRange     '4.0.0-rc4',
+32 silly addNameRange     '3.5.1',
+32 silly addNameRange     '4.0.0' ] ]
+33 verbose addNamed [ 'express', '3.5.1' ]
+34 verbose addNamed [ '3.5.1', '3.5.1' ]
+35 silly lockFile d983726f-express-3-5-1 express@3.5.1
+36 verbose lock express@3.5.1 /Users/Pets/.npm/d983726f-express-3-5-1.lock
+37 silly lockFile d983726f-express-3-5-1 express@3.5.1
+38 silly lockFile d983726f-express-3-5-1 express@3.5.1
+39 silly lockFile 3a341b85-express-3-x express@3.x
+40 silly lockFile 3a341b85-express-3-x express@3.x
+41 silly resolved [ { name: 'express',
+41 silly resolved     description: 'Sinatra inspired web development framework',
+41 silly resolved     version: '3.5.1',
+41 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+41 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+41 silly resolved     dependencies:
+41 silly resolved      { connect: '2.14.1',
+41 silly resolved        commander: '1.3.2',
+41 silly resolved        'range-parser': '1.0.0',
+41 silly resolved        mkdirp: '0.3.5',
+41 silly resolved        cookie: '0.1.1',
+41 silly resolved        'buffer-crc32': '0.2.1',
+41 silly resolved        fresh: '0.2.2',
+41 silly resolved        methods: '0.1.0',
+41 silly resolved        send: '0.2.0',
+41 silly resolved        'cookie-signature': '1.0.3',
+41 silly resolved        'merge-descriptors': '0.0.2',
+41 silly resolved        debug: '>= 0.7.3 < 1' },
+41 silly resolved     devDependencies:
+41 silly resolved      { ejs: '~0.8.4',
+41 silly resolved        mocha: '~1.17.1',
+41 silly resolved        jade: '~0.30.0',
+41 silly resolved        hjs: '~0.0.6',
+41 silly resolved        stylus: '~0.40.0',
+41 silly resolved        should: '~2.1.1',
+41 silly resolved        'connect-redis': '~1.4.5',
+41 silly resolved        marked: '0.2.10',
+41 silly resolved        supertest: '~0.9.0' },
+41 silly resolved     keywords:
+41 silly resolved      [ 'express',
+41 silly resolved        'framework',
+41 silly resolved        'sinatra',
+41 silly resolved        'web',
+41 silly resolved        'rest',
+41 silly resolved        'restful',
+41 silly resolved        'router',
+41 silly resolved        'app',
+41 silly resolved        'api' ],
+41 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+41 silly resolved     main: 'index',
+41 silly resolved     bin: { express: './bin/express' },
+41 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+41 silly resolved     engines: { node: '>= 0.8.0' },
+41 silly resolved     license: 'MIT',
+41 silly resolved     readme: '[![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)](http://expressjs.com/)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).\n\n  [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express) [![Gittip](http://img.shields.io/gittip/visionmedia.png)](https://www.gittip.com/visionmedia/)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers, making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Built on Connect, you can use _only_ what you need, and nothing more. Applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js),\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * [Website and Documentation](http://expressjs.com/) stored at [visionmedia/expressjs.com](https://github.com/visionmedia/expressjs.com)\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [Русскоязычная документация](http://jsman.ru/express/)\n  * Run express examples [online](https://runnable.com/express)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite dependencies:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nThen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\nYou can also view live examples here:\n\n<a href="https://runnable.com/express" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>\n\n## Running Tests\n\nTo run the test suite, first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nThen run the tests:\n\n    $ make test\n\n## Contributors\n\n  https://github.com/visionmedia/express/graphs/contributors\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+41 silly resolved     readmeFilename: 'Readme.md',
+41 silly resolved     bugs: { url: 'https://github.com/visionmedia/express/issues' },
+41 silly resolved     homepage: 'https://github.com/visionmedia/express',
+41 silly resolved     _id: 'express@3.5.1',
+41 silly resolved     _from: 'express@3.x' } ]
+42 info install express@3.5.1 into /Users/Pets/Desktop/myfirstserver
+43 info installOne express@3.5.1
+44 info /Users/Pets/Desktop/myfirstserver/node_modules/express unbuild
+45 info preuninstall express@4.0.0
+46 info uninstall express@4.0.0
+47 verbose true,/Users/Pets/Desktop/myfirstserver/node_modules,/Users/Pets/Desktop/myfirstserver/node_modules unbuild express@4.0.0
+48 info postuninstall express@4.0.0
+49 verbose tar unpack /Users/Pets/.npm/express/3.5.1/package.tgz
+50 silly lockFile 51a64426-firstserver-node-modules-express tar:///Users/Pets/Desktop/myfirstserver/node_modules/express
+51 verbose lock tar:///Users/Pets/Desktop/myfirstserver/node_modules/express /Users/Pets/.npm/51a64426-firstserver-node-modules-express.lock
+52 silly lockFile 63f3e34f-ts-npm-express-3-5-1-package-tgz tar:///Users/Pets/.npm/express/3.5.1/package.tgz
+53 verbose lock tar:///Users/Pets/.npm/express/3.5.1/package.tgz /Users/Pets/.npm/63f3e34f-ts-npm-express-3-5-1-package-tgz.lock
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm extractEntry LICENSE
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm extractEntry History.md
+60 silly gunzTarPerm extractEntry Makefile
+61 silly gunzTarPerm extractEntry .travis.yml
+62 silly gunzTarPerm extractEntry benchmarks/middleware.js
+63 silly gunzTarPerm extractEntry benchmarks/Makefile
+64 silly gunzTarPerm extractEntry benchmarks/run
+65 silly gunzTarPerm extractEntry bin/express
+66 silly gunzTarPerm extractEntry lib/application.js
+67 silly gunzTarPerm extractEntry lib/express.js
+68 silly gunzTarPerm extractEntry lib/middleware.js
+69 silly gunzTarPerm extractEntry lib/request.js
+70 silly gunzTarPerm extractEntry lib/response.js
+71 silly gunzTarPerm extractEntry lib/utils.js
+72 silly gunzTarPerm extractEntry lib/view.js
+73 silly gunzTarPerm extractEntry lib/router/index.js
+74 silly gunzTarPerm extractEntry lib/router/route.js
+75 silly gunzTarPerm extractEntry Readme.md
+76 silly lockFile 51a64426-firstserver-node-modules-express tar:///Users/Pets/Desktop/myfirstserver/node_modules/express
+77 silly lockFile 51a64426-firstserver-node-modules-express tar:///Users/Pets/Desktop/myfirstserver/node_modules/express
+78 silly lockFile 63f3e34f-ts-npm-express-3-5-1-package-tgz tar:///Users/Pets/.npm/express/3.5.1/package.tgz
+79 silly lockFile 63f3e34f-ts-npm-express-3-5-1-package-tgz tar:///Users/Pets/.npm/express/3.5.1/package.tgz
+80 info preinstall express@3.5.1
+81 verbose readDependencies using package.json deps
+82 verbose readDependencies using package.json deps
+83 verbose cache add [ 'connect@2.14.1', null ]
+84 verbose cache add name=undefined spec="connect@2.14.1" args=["connect@2.14.1",null]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: 'connect@2.14.1',
+85 verbose parsed url   path: 'connect@2.14.1',
+85 verbose parsed url   href: 'connect@2.14.1' }
+86 verbose cache add name="connect" spec="2.14.1" args=["connect","2.14.1"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '2.14.1',
+87 verbose parsed url   path: '2.14.1',
+87 verbose parsed url   href: '2.14.1' }
+88 verbose addNamed [ 'connect', '2.14.1' ]
+89 verbose addNamed [ '2.14.1', '2.14.1' ]
+90 silly lockFile ddd6af88-connect-2-14-1 connect@2.14.1
+91 verbose lock connect@2.14.1 /Users/Pets/.npm/ddd6af88-connect-2-14-1.lock
+92 verbose cache add [ 'commander@1.3.2', null ]
+93 verbose cache add name=undefined spec="commander@1.3.2" args=["commander@1.3.2",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'commander@1.3.2',
+94 verbose parsed url   path: 'commander@1.3.2',
+94 verbose parsed url   href: 'commander@1.3.2' }
+95 verbose cache add name="commander" spec="1.3.2" args=["commander","1.3.2"]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: '1.3.2',
+96 verbose parsed url   path: '1.3.2',
+96 verbose parsed url   href: '1.3.2' }
+97 verbose addNamed [ 'commander', '1.3.2' ]
+98 verbose addNamed [ '1.3.2', '1.3.2' ]
+99 silly lockFile 2016e061-commander-1-3-2 commander@1.3.2
+100 verbose lock commander@1.3.2 /Users/Pets/.npm/2016e061-commander-1-3-2.lock
+101 verbose cache add [ 'range-parser@1.0.0', null ]
+102 verbose cache add name=undefined spec="range-parser@1.0.0" args=["range-parser@1.0.0",null]
+103 verbose parsed url { protocol: null,
+103 verbose parsed url   slashes: null,
+103 verbose parsed url   auth: null,
+103 verbose parsed url   host: null,
+103 verbose parsed url   port: null,
+103 verbose parsed url   hostname: null,
+103 verbose parsed url   hash: null,
+103 verbose parsed url   search: null,
+103 verbose parsed url   query: null,
+103 verbose parsed url   pathname: 'range-parser@1.0.0',
+103 verbose parsed url   path: 'range-parser@1.0.0',
+103 verbose parsed url   href: 'range-parser@1.0.0' }
+104 verbose cache add name="range-parser" spec="1.0.0" args=["range-parser","1.0.0"]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: '1.0.0',
+105 verbose parsed url   path: '1.0.0',
+105 verbose parsed url   href: '1.0.0' }
+106 verbose addNamed [ 'range-parser', '1.0.0' ]
+107 verbose addNamed [ '1.0.0', '1.0.0' ]
+108 silly lockFile ed7aad53-range-parser-1-0-0 range-parser@1.0.0
+109 verbose lock range-parser@1.0.0 /Users/Pets/.npm/ed7aad53-range-parser-1-0-0.lock
+110 verbose cache add [ 'mkdirp@0.3.5', null ]
+111 verbose cache add name=undefined spec="mkdirp@0.3.5" args=["mkdirp@0.3.5",null]
+112 verbose parsed url { protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'mkdirp@0.3.5',
+112 verbose parsed url   path: 'mkdirp@0.3.5',
+112 verbose parsed url   href: 'mkdirp@0.3.5' }
+113 verbose cache add name="mkdirp" spec="0.3.5" args=["mkdirp","0.3.5"]
+114 verbose parsed url { protocol: null,
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: null,
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: null,
+114 verbose parsed url   hash: null,
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: '0.3.5',
+114 verbose parsed url   path: '0.3.5',
+114 verbose parsed url   href: '0.3.5' }
+115 verbose addNamed [ 'mkdirp', '0.3.5' ]
+116 verbose addNamed [ '0.3.5', '0.3.5' ]
+117 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+118 verbose lock mkdirp@0.3.5 /Users/Pets/.npm/67d2df2a-mkdirp-0-3-5.lock
+119 verbose cache add [ 'cookie@0.1.1', null ]
+120 verbose cache add name=undefined spec="cookie@0.1.1" args=["cookie@0.1.1",null]
+121 verbose parsed url { protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'cookie@0.1.1',
+121 verbose parsed url   path: 'cookie@0.1.1',
+121 verbose parsed url   href: 'cookie@0.1.1' }
+122 verbose cache add name="cookie" spec="0.1.1" args=["cookie","0.1.1"]
+123 verbose parsed url { protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: '0.1.1',
+123 verbose parsed url   path: '0.1.1',
+123 verbose parsed url   href: '0.1.1' }
+124 verbose addNamed [ 'cookie', '0.1.1' ]
+125 verbose addNamed [ '0.1.1', '0.1.1' ]
+126 silly lockFile 90c02103-cookie-0-1-1 cookie@0.1.1
+127 verbose lock cookie@0.1.1 /Users/Pets/.npm/90c02103-cookie-0-1-1.lock
+128 verbose cache add [ 'buffer-crc32@0.2.1', null ]
+129 verbose cache add name=undefined spec="buffer-crc32@0.2.1" args=["buffer-crc32@0.2.1",null]
+130 verbose parsed url { protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: 'buffer-crc32@0.2.1',
+130 verbose parsed url   path: 'buffer-crc32@0.2.1',
+130 verbose parsed url   href: 'buffer-crc32@0.2.1' }
+131 verbose cache add name="buffer-crc32" spec="0.2.1" args=["buffer-crc32","0.2.1"]
+132 verbose parsed url { protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: '0.2.1',
+132 verbose parsed url   path: '0.2.1',
+132 verbose parsed url   href: '0.2.1' }
+133 verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+134 verbose addNamed [ '0.2.1', '0.2.1' ]
+135 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+136 verbose lock buffer-crc32@0.2.1 /Users/Pets/.npm/057d0d26-buffer-crc32-0-2-1.lock
+137 verbose cache add [ 'fresh@0.2.2', null ]
+138 verbose cache add name=undefined spec="fresh@0.2.2" args=["fresh@0.2.2",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'fresh@0.2.2',
+139 verbose parsed url   path: 'fresh@0.2.2',
+139 verbose parsed url   href: 'fresh@0.2.2' }
+140 verbose cache add name="fresh" spec="0.2.2" args=["fresh","0.2.2"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '0.2.2',
+141 verbose parsed url   path: '0.2.2',
+141 verbose parsed url   href: '0.2.2' }
+142 verbose addNamed [ 'fresh', '0.2.2' ]
+143 verbose addNamed [ '0.2.2', '0.2.2' ]
+144 silly lockFile c9770696-fresh-0-2-2 fresh@0.2.2
+145 verbose lock fresh@0.2.2 /Users/Pets/.npm/c9770696-fresh-0-2-2.lock
+146 verbose cache add [ 'methods@0.1.0', null ]
+147 verbose cache add name=undefined spec="methods@0.1.0" args=["methods@0.1.0",null]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'methods@0.1.0',
+148 verbose parsed url   path: 'methods@0.1.0',
+148 verbose parsed url   href: 'methods@0.1.0' }
+149 verbose cache add name="methods" spec="0.1.0" args=["methods","0.1.0"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '0.1.0',
+150 verbose parsed url   path: '0.1.0',
+150 verbose parsed url   href: '0.1.0' }
+151 verbose addNamed [ 'methods', '0.1.0' ]
+152 verbose addNamed [ '0.1.0', '0.1.0' ]
+153 silly lockFile 81f018b6-methods-0-1-0 methods@0.1.0
+154 verbose lock methods@0.1.0 /Users/Pets/.npm/81f018b6-methods-0-1-0.lock
+155 verbose cache add [ 'send@0.2.0', null ]
+156 verbose cache add name=undefined spec="send@0.2.0" args=["send@0.2.0",null]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: 'send@0.2.0',
+157 verbose parsed url   path: 'send@0.2.0',
+157 verbose parsed url   href: 'send@0.2.0' }
+158 verbose cache add name="send" spec="0.2.0" args=["send","0.2.0"]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: '0.2.0',
+159 verbose parsed url   path: '0.2.0',
+159 verbose parsed url   href: '0.2.0' }
+160 verbose addNamed [ 'send', '0.2.0' ]
+161 verbose addNamed [ '0.2.0', '0.2.0' ]
+162 silly lockFile 130de15c-send-0-2-0 send@0.2.0
+163 verbose lock send@0.2.0 /Users/Pets/.npm/130de15c-send-0-2-0.lock
+164 verbose cache add [ 'cookie-signature@1.0.3', null ]
+165 verbose cache add name=undefined spec="cookie-signature@1.0.3" args=["cookie-signature@1.0.3",null]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: 'cookie-signature@1.0.3',
+166 verbose parsed url   path: 'cookie-signature@1.0.3',
+166 verbose parsed url   href: 'cookie-signature@1.0.3' }
+167 verbose cache add name="cookie-signature" spec="1.0.3" args=["cookie-signature","1.0.3"]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '1.0.3',
+168 verbose parsed url   path: '1.0.3',
+168 verbose parsed url   href: '1.0.3' }
+169 verbose addNamed [ 'cookie-signature', '1.0.3' ]
+170 verbose addNamed [ '1.0.3', '1.0.3' ]
+171 silly lockFile 925966a8-cookie-signature-1-0-3 cookie-signature@1.0.3
+172 verbose lock cookie-signature@1.0.3 /Users/Pets/.npm/925966a8-cookie-signature-1-0-3.lock
+173 verbose cache add [ 'merge-descriptors@0.0.2', null ]
+174 verbose cache add name=undefined spec="merge-descriptors@0.0.2" args=["merge-descriptors@0.0.2",null]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: 'merge-descriptors@0.0.2',
+175 verbose parsed url   path: 'merge-descriptors@0.0.2',
+175 verbose parsed url   href: 'merge-descriptors@0.0.2' }
+176 verbose cache add name="merge-descriptors" spec="0.0.2" args=["merge-descriptors","0.0.2"]
+177 verbose parsed url { protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: '0.0.2',
+177 verbose parsed url   path: '0.0.2',
+177 verbose parsed url   href: '0.0.2' }
+178 verbose addNamed [ 'merge-descriptors', '0.0.2' ]
+179 verbose addNamed [ '0.0.2', '0.0.2' ]
+180 silly lockFile a8c24cc5-merge-descriptors-0-0-2 merge-descriptors@0.0.2
+181 verbose lock merge-descriptors@0.0.2 /Users/Pets/.npm/a8c24cc5-merge-descriptors-0-0-2.lock
+182 verbose cache add [ 'debug@>= 0.7.3 < 1', null ]
+183 verbose cache add name=undefined spec="debug@>= 0.7.3 < 1" args=["debug@>= 0.7.3 < 1",null]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: 'debug@%3E=%200.7.3%20%3C%201',
+184 verbose parsed url   path: 'debug@%3E=%200.7.3%20%3C%201',
+184 verbose parsed url   href: 'debug@%3E=%200.7.3%20%3C%201' }
+185 verbose cache add name="debug" spec=">= 0.7.3 < 1" args=["debug",">= 0.7.3 < 1"]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: '%3E=%200.7.3%20%3C%201',
+186 verbose parsed url   path: '%3E=%200.7.3%20%3C%201',
+186 verbose parsed url   href: '%3E=%200.7.3%20%3C%201' }
+187 verbose addNamed [ 'debug', '>= 0.7.3 < 1' ]
+188 verbose addNamed [ null, '>=0.7.3 <1.0.0-0' ]
+189 silly lockFile a781479f-debug-0-7-3-1 debug@>= 0.7.3 < 1
+190 verbose lock debug@>= 0.7.3 < 1 /Users/Pets/.npm/a781479f-debug-0-7-3-1.lock
+191 verbose url raw range-parser/1.0.0
+192 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser/1.0.0' ]
+193 verbose url resolved https://registry.npmjs.org/range-parser/1.0.0
+194 info trying registry request attempt 1 at 21:03:43
+195 verbose etag "4SQXE3PS4VBZQNR0EU4ETDUU9"
+196 http GET https://registry.npmjs.org/range-parser/1.0.0
+197 silly addNameRange { name: 'debug', range: '>=0.7.3 <1.0.0-0', hasData: false }
+198 verbose url raw mkdirp/0.3.5
+199 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.5' ]
+200 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.5
+201 info trying registry request attempt 1 at 21:03:43
+202 verbose etag "2LSSXEUVNBIRIFVFA2MZ9O9H4"
+203 http GET https://registry.npmjs.org/mkdirp/0.3.5
+204 verbose url raw cookie/0.1.1
+205 verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.1.1' ]
+206 verbose url resolved https://registry.npmjs.org/cookie/0.1.1
+207 info trying registry request attempt 1 at 21:03:43
+208 verbose etag "D3D5J0WIZSGR2USAUAJTSCLYC"
+209 http GET https://registry.npmjs.org/cookie/0.1.1
+210 verbose url raw commander/1.3.2
+211 verbose url resolving [ 'https://registry.npmjs.org/', './commander/1.3.2' ]
+212 verbose url resolved https://registry.npmjs.org/commander/1.3.2
+213 info trying registry request attempt 1 at 21:03:43
+214 verbose etag "DVY3XY10UCR0PSIP483YCUAEI"
+215 http GET https://registry.npmjs.org/commander/1.3.2
+216 verbose url raw connect/2.14.1
+217 verbose url resolving [ 'https://registry.npmjs.org/', './connect/2.14.1' ]
+218 verbose url resolved https://registry.npmjs.org/connect/2.14.1
+219 info trying registry request attempt 1 at 21:03:43
+220 verbose etag "25ETVZPAS0SYOTS0KNYFRHC67"
+221 http GET https://registry.npmjs.org/connect/2.14.1
+222 verbose url raw buffer-crc32/0.2.1
+223 verbose url resolving [ 'https://registry.npmjs.org/', './buffer-crc32/0.2.1' ]
+224 verbose url resolved https://registry.npmjs.org/buffer-crc32/0.2.1
+225 info trying registry request attempt 1 at 21:03:43
+226 verbose etag "AG3Y7O2FYZCC613VV86QVPW9"
+227 http GET https://registry.npmjs.org/buffer-crc32/0.2.1
+228 verbose url raw fresh/0.2.2
+229 verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.2.2' ]
+230 verbose url resolved https://registry.npmjs.org/fresh/0.2.2
+231 info trying registry request attempt 1 at 21:03:43
+232 verbose etag "CEL8EAVMLWWHS60O89Z41YOGG"
+233 http GET https://registry.npmjs.org/fresh/0.2.2
+234 verbose url raw methods/0.1.0
+235 verbose url resolving [ 'https://registry.npmjs.org/', './methods/0.1.0' ]
+236 verbose url resolved https://registry.npmjs.org/methods/0.1.0
+237 info trying registry request attempt 1 at 21:03:43
+238 verbose etag "6APMFC5X7H2FLK4DM8JIDYRTP"
+239 http GET https://registry.npmjs.org/methods/0.1.0
+240 verbose url raw send/0.2.0
+241 verbose url resolving [ 'https://registry.npmjs.org/', './send/0.2.0' ]
+242 verbose url resolved https://registry.npmjs.org/send/0.2.0
+243 info trying registry request attempt 1 at 21:03:43
+244 verbose etag "BO052QYD3Z5RVAUPFGUNOBV23"
+245 http GET https://registry.npmjs.org/send/0.2.0
+246 verbose url raw cookie-signature/1.0.3
+247 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature/1.0.3' ]
+248 verbose url resolved https://registry.npmjs.org/cookie-signature/1.0.3
+249 info trying registry request attempt 1 at 21:03:43
+250 verbose etag "6WMWQIIGBD3RRTLB3ESVFENZL"
+251 http GET https://registry.npmjs.org/cookie-signature/1.0.3
+252 verbose url raw merge-descriptors/0.0.2
+253 verbose url resolving [ 'https://registry.npmjs.org/', './merge-descriptors/0.0.2' ]
+254 verbose url resolved https://registry.npmjs.org/merge-descriptors/0.0.2
+255 info trying registry request attempt 1 at 21:03:43
+256 verbose etag "8B5DCDJRWCLTP5VW1SSO7K3FS"
+257 http GET https://registry.npmjs.org/merge-descriptors/0.0.2
+258 verbose url raw debug
+259 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+260 verbose url resolved https://registry.npmjs.org/debug
+261 info trying registry request attempt 1 at 21:03:43
+262 verbose etag "7NK6EFQGJ7GT56O6MYPU5HUNE"
+263 http GET https://registry.npmjs.org/debug
+264 http 200 https://registry.npmjs.org/mkdirp/0.3.5
+265 silly registry.get cb [ 200,
+265 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+265 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+265 silly registry.get     etag: '"D0OSIRXBBPJV5JUJHAB2DMBB4"',
+265 silly registry.get     'content-type': 'application/json',
+265 silly registry.get     via: '1.1 varnish',
+265 silly registry.get     'cache-control': 'max-age=1',
+265 silly registry.get     'content-length': '712',
+265 silly registry.get     'accept-ranges': 'bytes',
+265 silly registry.get     age: '33',
+265 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-am77-AMS',
+265 silly registry.get     'x-cache': 'HIT, HIT',
+265 silly registry.get     'x-cache-hits': '1, 2',
+265 silly registry.get     'x-timer': 'S1397156622.525893688,VS0,VE0',
+265 silly registry.get     vary: 'Accept',
+265 silly registry.get     'keep-alive': 'timeout=10, max=50',
+265 silly registry.get     connection: 'Keep-Alive' } ]
+266 silly lockFile 7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+267 verbose lock https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz /Users/Pets/.npm/7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz.lock
+268 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+268 verbose addRemoteTarball   'de3e5f8961c88c787ee1368df849ac4413eca8d7' ]
+269 info retry fetch attempt 1 at 21:03:44
+270 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/tmp.tgz
+271 http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+272 http 304 https://registry.npmjs.org/buffer-crc32/0.2.1
+273 silly registry.get cb [ 304,
+273 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+273 silly registry.get     server: 'Apache',
+273 silly registry.get     via: '1.1 varnish',
+273 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:42 GMT',
+273 silly registry.get     'cache-control': 'max-age=1',
+273 silly registry.get     etag: '"AG3Y7O2FYZCC613VV86QVPW9"',
+273 silly registry.get     'x-served-by': 'cache-am77-AMS',
+273 silly registry.get     'x-cache': 'HIT',
+273 silly registry.get     'x-cache-hits': '1',
+273 silly registry.get     'x-timer': 'S1397156622.588560581,VS0,VE93',
+273 silly registry.get     vary: 'Accept',
+273 silly registry.get     'content-length': '0',
+273 silly registry.get     'keep-alive': 'timeout=10, max=49',
+273 silly registry.get     connection: 'Keep-Alive' } ]
+274 verbose etag buffer-crc32/0.2.1 from cache
+275 http 304 https://registry.npmjs.org/range-parser/1.0.0
+276 silly registry.get cb [ 304,
+276 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+276 silly registry.get     server: 'Apache',
+276 silly registry.get     via: '1.1 varnish',
+276 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:42 GMT',
+276 silly registry.get     'cache-control': 'max-age=1',
+276 silly registry.get     etag: '"4SQXE3PS4VBZQNR0EU4ETDUU9"',
+276 silly registry.get     'x-served-by': 'cache-am70-AMS',
+276 silly registry.get     'x-cache': 'HIT',
+276 silly registry.get     'x-cache-hits': '1',
+276 silly registry.get     'x-timer': 'S1397156622.467721701,VS0,VE214',
+276 silly registry.get     vary: 'Accept',
+276 silly registry.get     'content-length': '0',
+276 silly registry.get     'keep-alive': 'timeout=10, max=50',
+276 silly registry.get     connection: 'Keep-Alive' } ]
+277 verbose etag range-parser/1.0.0 from cache
+278 silly lockFile ed7aad53-range-parser-1-0-0 range-parser@1.0.0
+279 silly lockFile ed7aad53-range-parser-1-0-0 range-parser@1.0.0
+280 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+281 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+282 http 200 https://registry.npmjs.org/commander/1.3.2
+283 silly registry.get cb [ 200,
+283 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+283 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+283 silly registry.get     etag: '"CYJY0DP9ZCTCY9GEN1CN9JOPW"',
+283 silly registry.get     'content-type': 'application/json',
+283 silly registry.get     via: '1.1 varnish',
+283 silly registry.get     'cache-control': 'max-age=1',
+283 silly registry.get     'content-length': '878',
+283 silly registry.get     'accept-ranges': 'bytes',
+283 silly registry.get     age: '817',
+283 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-am77-AMS',
+283 silly registry.get     'x-cache': 'HIT, MISS',
+283 silly registry.get     'x-cache-hits': '1, 0',
+283 silly registry.get     'x-timer': 'S1397154962.522990227,VS0,VS3,VE98,VE1660243',
+283 silly registry.get     vary: 'Accept',
+283 silly registry.get     'keep-alive': 'timeout=10, max=50',
+283 silly registry.get     connection: 'Keep-Alive' } ]
+284 http 200 https://registry.npmjs.org/connect/2.14.1
+285 silly registry.get cb [ 200,
+285 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+285 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+285 silly registry.get     etag: '"V8VQ4PSF5UDQMESN6P7QV0L9"',
+285 silly registry.get     'content-type': 'application/json',
+285 silly registry.get     via: '1.1 varnish',
+285 silly registry.get     'cache-control': 'max-age=1',
+285 silly registry.get     'content-length': '1657',
+285 silly registry.get     'accept-ranges': 'bytes',
+285 silly registry.get     age: '12',
+285 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-am77-AMS',
+285 silly registry.get     'x-cache': 'MISS, MISS',
+285 silly registry.get     'x-cache-hits': '0, 0',
+285 silly registry.get     'x-timer': 'S1397154923.053703070,VS0,VS4,VE97,VE1699728',
+285 silly registry.get     vary: 'Accept',
+285 silly registry.get     'keep-alive': 'timeout=10, max=50',
+285 silly registry.get     connection: 'Keep-Alive' } ]
+286 http 200 https://registry.npmjs.org/cookie/0.1.1
+287 silly registry.get cb [ 200,
+287 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+287 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+287 silly registry.get     etag: '"5MP60PKCKGQ24M8KKZQJ3NNMZ"',
+287 silly registry.get     'content-type': 'application/json',
+287 silly registry.get     via: '1.1 varnish',
+287 silly registry.get     'cache-control': 'max-age=1',
+287 silly registry.get     'content-length': '846',
+287 silly registry.get     'accept-ranges': 'bytes',
+287 silly registry.get     age: '1236',
+287 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-am77-AMS',
+287 silly registry.get     'x-cache': 'HIT, MISS',
+287 silly registry.get     'x-cache-hits': '1, 0',
+287 silly registry.get     'x-timer': 'S1397155386.690141916,VS0,VS4,VE104,VE1236097',
+287 silly registry.get     vary: 'Accept',
+287 silly registry.get     'keep-alive': 'timeout=10, max=50',
+287 silly registry.get     connection: 'Keep-Alive' } ]
+288 silly lockFile 0d5429af-rg-commander-commander-1-3-2-tgz https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+289 verbose lock https://registry.npmjs.org/commander/-/commander-1.3.2.tgz /Users/Pets/.npm/0d5429af-rg-commander-commander-1-3-2-tgz.lock
+290 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-1.3.2.tgz',
+290 verbose addRemoteTarball   '8a8f30ec670a6fdd64af52f1914b907d79ead5b5' ]
+291 info retry fetch attempt 1 at 21:03:44
+292 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz
+293 http GET https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+294 http 304 https://registry.npmjs.org/methods/0.1.0
+295 silly registry.get cb [ 304,
+295 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+295 silly registry.get     server: 'Apache',
+295 silly registry.get     via: '1.1 varnish',
+295 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:42 GMT',
+295 silly registry.get     'cache-control': 'max-age=1',
+295 silly registry.get     etag: '"6APMFC5X7H2FLK4DM8JIDYRTP"',
+295 silly registry.get     'x-served-by': 'cache-am70-AMS',
+295 silly registry.get     'x-cache': 'HIT',
+295 silly registry.get     'x-cache-hits': '1',
+295 silly registry.get     'x-timer': 'S1397156622.729025841,VS0,VE85',
+295 silly registry.get     vary: 'Accept',
+295 silly registry.get     'content-length': '0',
+295 silly registry.get     'keep-alive': 'timeout=10, max=49',
+295 silly registry.get     connection: 'Keep-Alive' } ]
+296 verbose etag methods/0.1.0 from cache
+297 silly lockFile 5f5c3e55-pmjs-org-cookie-cookie-0-1-1-tgz https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+298 verbose lock https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz /Users/Pets/.npm/5f5c3e55-pmjs-org-cookie-cookie-0-1-1-tgz.lock
+299 silly lockFile f8e8fbe9-s-org-connect-connect-2-14-1-tgz https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+300 verbose lock https://registry.npmjs.org/connect/-/connect-2.14.1.tgz /Users/Pets/.npm/f8e8fbe9-s-org-connect-connect-2-14-1-tgz.lock
+301 verbose addRemoteTarball [ 'https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz',
+301 verbose addRemoteTarball   'cbd4b537aa65f800b6c66ead2520ba8d6afbdf54' ]
+302 info retry fetch attempt 1 at 21:03:44
+303 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624578-0.6543624475598335/tmp.tgz
+304 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.14.1.tgz',
+304 verbose addRemoteTarball   'e6fd676a5735ca703a89eb970f3d283fadecc2c7' ]
+305 info retry fetch attempt 1 at 21:03:44
+306 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz
+307 http GET https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+308 http GET https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+309 silly lockFile 81f018b6-methods-0-1-0 methods@0.1.0
+310 silly lockFile 81f018b6-methods-0-1-0 methods@0.1.0
+311 http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+312 verbose tar unpack /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/tmp.tgz
+313 silly lockFile 652c7091-326-0-031324878334999084-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+314 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package /Users/Pets/.npm/652c7091-326-0-031324878334999084-package.lock
+315 silly lockFile 271a6466-326-0-031324878334999084-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/tmp.tgz
+316 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/tmp.tgz /Users/Pets/.npm/271a6466-326-0-031324878334999084-tmp-tgz.lock
+317 silly gunzTarPerm modes [ '755', '644' ]
+318 silly gunzTarPerm extractEntry package.json
+319 silly gunzTarPerm extractEntry .npmignore
+320 silly gunzTarPerm extractEntry LICENSE
+321 silly gunzTarPerm extractEntry index.js
+322 silly gunzTarPerm extractEntry examples/pow.js
+323 silly gunzTarPerm extractEntry readme.markdown
+324 silly gunzTarPerm extractEntry test/perm.js
+325 silly gunzTarPerm extractEntry test/perm_sync.js
+326 silly gunzTarPerm extractEntry test/race.js
+327 silly gunzTarPerm extractEntry test/rel.js
+328 silly gunzTarPerm extractEntry test/return.js
+329 silly gunzTarPerm extractEntry test/clobber.js
+330 silly gunzTarPerm extractEntry test/root.js
+331 silly gunzTarPerm extractEntry test/umask.js
+332 silly gunzTarPerm extractEntry test/sync.js
+333 silly gunzTarPerm extractEntry test/chmod.js
+334 silly gunzTarPerm extractEntry test/umask_sync.js
+335 silly gunzTarPerm extractEntry test/return_sync.js
+336 silly gunzTarPerm extractEntry test/mkdirp.js
+337 silly gunzTarPerm extractEntry .travis.yml
+338 silly lockFile 652c7091-326-0-031324878334999084-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+339 silly lockFile 652c7091-326-0-031324878334999084-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+340 silly lockFile 271a6466-326-0-031324878334999084-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/tmp.tgz
+341 silly lockFile 271a6466-326-0-031324878334999084-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/tmp.tgz
+342 verbose tar pack [ '/Users/Pets/.npm/mkdirp/0.3.5/package.tgz',
+342 verbose tar pack   '/var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package' ]
+343 verbose tarball /Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+344 verbose folder /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+345 silly lockFile 652c7091-326-0-031324878334999084-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+346 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package /Users/Pets/.npm/652c7091-326-0-031324878334999084-package.lock
+347 silly lockFile 6564ea26-ets-npm-mkdirp-0-3-5-package-tgz tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+348 verbose lock tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz /Users/Pets/.npm/6564ea26-ets-npm-mkdirp-0-3-5-package-tgz.lock
+349 http 304 https://registry.npmjs.org/fresh/0.2.2
+350 silly registry.get cb [ 304,
+350 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+350 silly registry.get     server: 'Apache',
+350 silly registry.get     via: '1.1 varnish',
+350 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:42 GMT',
+350 silly registry.get     'cache-control': 'max-age=1',
+350 silly registry.get     etag: '"CEL8EAVMLWWHS60O89Z41YOGG"',
+350 silly registry.get     'x-served-by': 'cache-am77-AMS',
+350 silly registry.get     'x-cache': 'HIT',
+350 silly registry.get     'x-cache-hits': '1',
+350 silly registry.get     'x-timer': 'S1397156622.729832411,VS0,VE184',
+350 silly registry.get     vary: 'Accept',
+350 silly registry.get     'content-length': '0',
+350 silly registry.get     'keep-alive': 'timeout=10, max=48',
+350 silly registry.get     connection: 'Keep-Alive' } ]
+351 verbose etag fresh/0.2.2 from cache
+352 http 304 https://registry.npmjs.org/cookie-signature/1.0.3
+353 silly registry.get cb [ 304,
+353 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+353 silly registry.get     server: 'Apache',
+353 silly registry.get     via: '1.1 varnish',
+353 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:42 GMT',
+353 silly registry.get     'cache-control': 'max-age=1',
+353 silly registry.get     etag: '"6WMWQIIGBD3RRTLB3ESVFENZL"',
+353 silly registry.get     'x-served-by': 'cache-am77-AMS',
+353 silly registry.get     'x-cache': 'HIT',
+353 silly registry.get     'x-cache-hits': '1',
+353 silly registry.get     'x-timer': 'S1397156622.825019598,VS0,VE96',
+353 silly registry.get     vary: 'Accept',
+353 silly registry.get     'content-length': '0',
+353 silly registry.get     'keep-alive': 'timeout=10, max=49',
+353 silly registry.get     connection: 'Keep-Alive' } ]
+354 verbose etag cookie-signature/1.0.3 from cache
+355 silly lockFile c9770696-fresh-0-2-2 fresh@0.2.2
+356 silly lockFile c9770696-fresh-0-2-2 fresh@0.2.2
+357 error fetch failed https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+358 info retry will retry, error on last attempt: Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+359 error fetch failed https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+360 info retry will retry, error on last attempt: Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+361 http 304 https://registry.npmjs.org/debug
+362 silly registry.get cb [ 304,
+362 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+362 silly registry.get     server: 'Apache',
+362 silly registry.get     via: '1.1 varnish',
+362 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:43 GMT',
+362 silly registry.get     'cache-control': 'max-age=1',
+362 silly registry.get     etag: '"7NK6EFQGJ7GT56O6MYPU5HUNE"',
+362 silly registry.get     'x-served-by': 'cache-am70-AMS',
+362 silly registry.get     'x-cache': 'HIT',
+362 silly registry.get     'x-cache-hits': '1',
+362 silly registry.get     'x-timer': 'S1397156622.828641891,VS0,VE175',
+362 silly registry.get     vary: 'Accept',
+362 silly registry.get     'content-length': '0',
+362 silly registry.get     'keep-alive': 'timeout=10, max=48',
+362 silly registry.get     connection: 'Keep-Alive' } ]
+363 verbose etag debug from cache
+364 error fetch failed https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+365 info retry will retry, error on last attempt: Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+366 silly lockFile 925966a8-cookie-signature-1-0-3 cookie-signature@1.0.3
+367 silly lockFile 925966a8-cookie-signature-1-0-3 cookie-signature@1.0.3
+368 http 304 https://registry.npmjs.org/send/0.2.0
+369 silly registry.get cb [ 304,
+369 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+369 silly registry.get     server: 'Apache',
+369 silly registry.get     via: '1.1 varnish',
+369 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:43 GMT',
+369 silly registry.get     'cache-control': 'max-age=1',
+369 silly registry.get     etag: '"BO052QYD3Z5RVAUPFGUNOBV23"',
+369 silly registry.get     'x-served-by': 'cache-am77-AMS',
+369 silly registry.get     'x-cache': 'HIT',
+369 silly registry.get     'x-cache-hits': '1',
+369 silly registry.get     'x-timer': 'S1397156622.824989557,VS0,VE181',
+369 silly registry.get     vary: 'Accept',
+369 silly registry.get     'content-length': '0',
+369 silly registry.get     'keep-alive': 'timeout=10, max=49',
+369 silly registry.get     connection: 'Keep-Alive' } ]
+370 verbose etag send/0.2.0 from cache
+371 http 304 https://registry.npmjs.org/merge-descriptors/0.0.2
+372 silly registry.get cb [ 304,
+372 silly registry.get   { date: 'Thu, 10 Apr 2014 19:03:42 GMT',
+372 silly registry.get     server: 'Apache',
+372 silly registry.get     via: '1.1 varnish',
+372 silly registry.get     'last-modified': 'Thu, 10 Apr 2014 19:03:43 GMT',
+372 silly registry.get     'cache-control': 'max-age=1',
+372 silly registry.get     etag: '"8B5DCDJRWCLTP5VW1SSO7K3FS"',
+372 silly registry.get     'x-served-by': 'cache-am77-AMS',
+372 silly registry.get     'x-cache': 'HIT',
+372 silly registry.get     'x-cache-hits': '1',
+372 silly registry.get     'x-timer': 'S1397156622.828495979,VS0,VE183',
+372 silly registry.get     vary: 'Accept',
+372 silly registry.get     'content-length': '0',
+372 silly registry.get     'keep-alive': 'timeout=10, max=49',
+372 silly registry.get     connection: 'Keep-Alive' } ]
+373 verbose etag merge-descriptors/0.0.2 from cache
+374 silly addNameRange number 2 { name: 'debug', range: '>=0.7.3 <1.0.0-0', hasData: true }
+375 silly addNameRange versions [ 'debug',
+375 silly addNameRange   [ '0.0.1',
+375 silly addNameRange     '0.1.0',
+375 silly addNameRange     '0.2.0',
+375 silly addNameRange     '0.3.0',
+375 silly addNameRange     '0.4.0',
+375 silly addNameRange     '0.4.1',
+375 silly addNameRange     '0.5.0',
+375 silly addNameRange     '0.6.0',
+375 silly addNameRange     '0.7.0',
+375 silly addNameRange     '0.7.1',
+375 silly addNameRange     '0.7.2',
+375 silly addNameRange     '0.7.3',
+375 silly addNameRange     '0.7.4',
+375 silly addNameRange     '0.8.0' ] ]
+376 verbose addNamed [ 'debug', '0.8.0' ]
+377 verbose addNamed [ '0.8.0', '0.8.0' ]
+378 silly lockFile 3647f48c-debug-0-8-0 debug@0.8.0
+379 verbose lock debug@0.8.0 /Users/Pets/.npm/3647f48c-debug-0-8-0.lock
+380 silly lockFile 130de15c-send-0-2-0 send@0.2.0
+381 silly lockFile 130de15c-send-0-2-0 send@0.2.0
+382 silly lockFile a8c24cc5-merge-descriptors-0-0-2 merge-descriptors@0.0.2
+383 silly lockFile a8c24cc5-merge-descriptors-0-0-2 merge-descriptors@0.0.2
+384 silly lockFile 3647f48c-debug-0-8-0 debug@0.8.0
+385 silly lockFile 3647f48c-debug-0-8-0 debug@0.8.0
+386 silly lockFile a781479f-debug-0-7-3-1 debug@>= 0.7.3 < 1
+387 silly lockFile a781479f-debug-0-7-3-1 debug@>= 0.7.3 < 1
+388 silly lockFile 652c7091-326-0-031324878334999084-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+389 silly lockFile 652c7091-326-0-031324878334999084-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624326-0.031324878334999084/package
+390 silly lockFile 6564ea26-ets-npm-mkdirp-0-3-5-package-tgz tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+391 silly lockFile 6564ea26-ets-npm-mkdirp-0-3-5-package-tgz tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+392 silly lockFile ea09f591-rs-Pets-npm-mkdirp-0-3-5-package /Users/Pets/.npm/mkdirp/0.3.5/package
+393 verbose lock /Users/Pets/.npm/mkdirp/0.3.5/package /Users/Pets/.npm/ea09f591-rs-Pets-npm-mkdirp-0-3-5-package.lock
+394 silly lockFile ea09f591-rs-Pets-npm-mkdirp-0-3-5-package /Users/Pets/.npm/mkdirp/0.3.5/package
+395 silly lockFile ea09f591-rs-Pets-npm-mkdirp-0-3-5-package /Users/Pets/.npm/mkdirp/0.3.5/package
+396 verbose tar unpack /Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+397 silly lockFile 2bbea33b-rs-Pets-npm-mkdirp-0-3-5-package tar:///Users/Pets/.npm/mkdirp/0.3.5/package
+398 verbose lock tar:///Users/Pets/.npm/mkdirp/0.3.5/package /Users/Pets/.npm/2bbea33b-rs-Pets-npm-mkdirp-0-3-5-package.lock
+399 silly lockFile 6564ea26-ets-npm-mkdirp-0-3-5-package-tgz tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+400 verbose lock tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz /Users/Pets/.npm/6564ea26-ets-npm-mkdirp-0-3-5-package-tgz.lock
+401 silly gunzTarPerm modes [ '755', '644' ]
+402 silly gunzTarPerm extractEntry package.json
+403 silly gunzTarPerm extractEntry .npmignore
+404 silly gunzTarPerm extractEntry LICENSE
+405 silly gunzTarPerm extractEntry index.js
+406 silly gunzTarPerm extractEntry .travis.yml
+407 silly gunzTarPerm extractEntry examples/pow.js
+408 silly gunzTarPerm extractEntry readme.markdown
+409 silly gunzTarPerm extractEntry test/chmod.js
+410 silly gunzTarPerm extractEntry test/perm.js
+411 silly gunzTarPerm extractEntry test/perm_sync.js
+412 silly gunzTarPerm extractEntry test/race.js
+413 silly gunzTarPerm extractEntry test/mkdirp.js
+414 silly gunzTarPerm extractEntry test/return.js
+415 silly gunzTarPerm extractEntry test/return_sync.js
+416 silly gunzTarPerm extractEntry test/root.js
+417 silly gunzTarPerm extractEntry test/sync.js
+418 silly gunzTarPerm extractEntry test/umask.js
+419 silly gunzTarPerm extractEntry test/clobber.js
+420 silly gunzTarPerm extractEntry test/umask_sync.js
+421 silly gunzTarPerm extractEntry test/rel.js
+422 silly lockFile 2bbea33b-rs-Pets-npm-mkdirp-0-3-5-package tar:///Users/Pets/.npm/mkdirp/0.3.5/package
+423 silly lockFile 2bbea33b-rs-Pets-npm-mkdirp-0-3-5-package tar:///Users/Pets/.npm/mkdirp/0.3.5/package
+424 silly lockFile 6564ea26-ets-npm-mkdirp-0-3-5-package-tgz tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+425 silly lockFile 6564ea26-ets-npm-mkdirp-0-3-5-package-tgz tar:///Users/Pets/.npm/mkdirp/0.3.5/package.tgz
+426 verbose chmod /Users/Pets/.npm/mkdirp/0.3.5/package.tgz 644
+427 verbose chown /Users/Pets/.npm/mkdirp/0.3.5/package.tgz [ 501, 20 ]
+428 silly lockFile 7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+429 silly lockFile 7b2ebe55-pmjs-org-mkdirp-mkdirp-0-3-5-tgz https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+430 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+431 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+432 info retry fetch attempt 2 at 21:03:54
+433 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz
+434 http GET https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+435 info retry fetch attempt 2 at 21:03:54
+436 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624578-0.6543624475598335/tmp.tgz
+437 http GET https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+438 info retry fetch attempt 2 at 21:03:54
+439 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz
+440 http GET https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+441 error fetch failed https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+442 info retry will retry, error on last attempt: Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+443 http 200 https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+444 http 200 https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+445 verbose tar unpack /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz
+446 silly lockFile 674c4dcd-24571-0-3888948333915323-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+447 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package /Users/Pets/.npm/674c4dcd-24571-0-3888948333915323-package.lock
+448 silly lockFile c26c41e7-24571-0-3888948333915323-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz
+449 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz /Users/Pets/.npm/c26c41e7-24571-0-3888948333915323-tmp-tgz.lock
+450 silly gunzTarPerm modes [ '755', '644' ]
+451 silly gunzTarPerm extractEntry package.json
+452 silly gunzTarPerm extractEntry index.js
+453 silly gunzTarPerm extractEntry History.md
+454 silly gunzTarPerm extractEntry Readme.md
+455 silly lockFile 674c4dcd-24571-0-3888948333915323-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+456 silly lockFile 674c4dcd-24571-0-3888948333915323-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+457 silly lockFile c26c41e7-24571-0-3888948333915323-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz
+458 silly lockFile c26c41e7-24571-0-3888948333915323-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/tmp.tgz
+459 verbose tar pack [ '/Users/Pets/.npm/commander/1.3.2/package.tgz',
+459 verbose tar pack   '/var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package' ]
+460 verbose tarball /Users/Pets/.npm/commander/1.3.2/package.tgz
+461 verbose folder /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+462 silly lockFile 674c4dcd-24571-0-3888948333915323-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+463 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package /Users/Pets/.npm/674c4dcd-24571-0-3888948333915323-package.lock
+464 silly lockFile d53d9ad4--npm-commander-1-3-2-package-tgz tar:///Users/Pets/.npm/commander/1.3.2/package.tgz
+465 verbose lock tar:///Users/Pets/.npm/commander/1.3.2/package.tgz /Users/Pets/.npm/d53d9ad4--npm-commander-1-3-2-package-tgz.lock
+466 silly lockFile 674c4dcd-24571-0-3888948333915323-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+467 silly lockFile 674c4dcd-24571-0-3888948333915323-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624571-0.3888948333915323/package
+468 silly lockFile d53d9ad4--npm-commander-1-3-2-package-tgz tar:///Users/Pets/.npm/commander/1.3.2/package.tgz
+469 silly lockFile d53d9ad4--npm-commander-1-3-2-package-tgz tar:///Users/Pets/.npm/commander/1.3.2/package.tgz
+470 silly lockFile 78924685-Pets-npm-commander-1-3-2-package /Users/Pets/.npm/commander/1.3.2/package
+471 verbose lock /Users/Pets/.npm/commander/1.3.2/package /Users/Pets/.npm/78924685-Pets-npm-commander-1-3-2-package.lock
+472 silly lockFile 78924685-Pets-npm-commander-1-3-2-package /Users/Pets/.npm/commander/1.3.2/package
+473 silly lockFile 78924685-Pets-npm-commander-1-3-2-package /Users/Pets/.npm/commander/1.3.2/package
+474 verbose tar unpack /Users/Pets/.npm/commander/1.3.2/package.tgz
+475 silly lockFile f8ab4d62-Pets-npm-commander-1-3-2-package tar:///Users/Pets/.npm/commander/1.3.2/package
+476 verbose lock tar:///Users/Pets/.npm/commander/1.3.2/package /Users/Pets/.npm/f8ab4d62-Pets-npm-commander-1-3-2-package.lock
+477 silly lockFile d53d9ad4--npm-commander-1-3-2-package-tgz tar:///Users/Pets/.npm/commander/1.3.2/package.tgz
+478 verbose lock tar:///Users/Pets/.npm/commander/1.3.2/package.tgz /Users/Pets/.npm/d53d9ad4--npm-commander-1-3-2-package-tgz.lock
+479 silly gunzTarPerm modes [ '755', '644' ]
+480 silly gunzTarPerm extractEntry package.json
+481 silly gunzTarPerm extractEntry index.js
+482 silly gunzTarPerm extractEntry History.md
+483 silly gunzTarPerm extractEntry Readme.md
+484 verbose tar unpack /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz
+485 silly lockFile fb43e837-24579-0-6449573857244104-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+486 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package /Users/Pets/.npm/fb43e837-24579-0-6449573857244104-package.lock
+487 silly lockFile 98caa523-24579-0-6449573857244104-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz
+488 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz /Users/Pets/.npm/98caa523-24579-0-6449573857244104-tmp-tgz.lock
+489 silly gunzTarPerm modes [ '755', '644' ]
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+492 silly gunzTarPerm extractEntry .npmignore
+493 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+494 silly gunzTarPerm extractEntry LICENSE
+495 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+496 silly gunzTarPerm extractEntry index.js
+497 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry .travis.yml
+499 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+500 silly gunzTarPerm extractEntry lib/cache.js
+501 silly gunzTarPerm modified mode [ 'lib/cache.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/connect.js
+503 silly gunzTarPerm modified mode [ 'lib/connect.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry lib/index.js
+505 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry lib/patch.js
+507 silly gunzTarPerm modified mode [ 'lib/patch.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/proto.js
+509 silly gunzTarPerm modified mode [ 'lib/proto.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry lib/utils.js
+511 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+513 silly gunzTarPerm modified mode [ 'lib/middleware/basicAuth.js', 438, 420 ]
+514 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+515 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 438, 420 ]
+516 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+517 silly gunzTarPerm modified mode [ 'lib/middleware/favicon.js', 438, 420 ]
+518 silly lockFile f8ab4d62-Pets-npm-commander-1-3-2-package tar:///Users/Pets/.npm/commander/1.3.2/package
+519 silly lockFile f8ab4d62-Pets-npm-commander-1-3-2-package tar:///Users/Pets/.npm/commander/1.3.2/package
+520 silly lockFile d53d9ad4--npm-commander-1-3-2-package-tgz tar:///Users/Pets/.npm/commander/1.3.2/package.tgz
+521 silly lockFile d53d9ad4--npm-commander-1-3-2-package-tgz tar:///Users/Pets/.npm/commander/1.3.2/package.tgz
+522 verbose chmod /Users/Pets/.npm/commander/1.3.2/package.tgz 644
+523 verbose chown /Users/Pets/.npm/commander/1.3.2/package.tgz [ 501, 20 ]
+524 silly gunzTarPerm extractEntry lib/middleware/json.js
+525 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 438, 420 ]
+526 silly gunzTarPerm extractEntry lib/middleware/limit.js
+527 silly gunzTarPerm modified mode [ 'lib/middleware/limit.js', 438, 420 ]
+528 silly lockFile 0d5429af-rg-commander-commander-1-3-2-tgz https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+529 silly lockFile 0d5429af-rg-commander-commander-1-3-2-tgz https://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+530 silly lockFile 2016e061-commander-1-3-2 commander@1.3.2
+531 silly lockFile 2016e061-commander-1-3-2 commander@1.3.2
+532 silly gunzTarPerm extractEntry lib/middleware/directory.js
+533 silly gunzTarPerm modified mode [ 'lib/middleware/directory.js', 438, 420 ]
+534 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+535 silly gunzTarPerm modified mode [ 'lib/middleware/methodOverride.js', 438, 420 ]
+536 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+537 silly gunzTarPerm modified mode [ 'lib/middleware/multipart.js', 438, 420 ]
+538 silly gunzTarPerm extractEntry lib/middleware/query.js
+539 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 420 ]
+540 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+541 silly gunzTarPerm modified mode [ 'lib/middleware/responseTime.js', 438, 420 ]
+542 silly gunzTarPerm extractEntry lib/middleware/session.js
+543 silly gunzTarPerm modified mode [ 'lib/middleware/session.js', 438, 420 ]
+544 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+545 silly gunzTarPerm modified mode [ 'lib/middleware/csrf.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry lib/middleware/static.js
+547 silly gunzTarPerm modified mode [ 'lib/middleware/static.js', 438, 420 ]
+548 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+549 silly gunzTarPerm modified mode [ 'lib/middleware/cookieSession.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+551 silly gunzTarPerm modified mode [ 'lib/middleware/staticCache.js', 438, 420 ]
+552 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+553 silly gunzTarPerm modified mode [ 'lib/middleware/cookieParser.js', 438, 420 ]
+554 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+555 silly gunzTarPerm modified mode [ 'lib/middleware/timeout.js', 438, 420 ]
+556 silly gunzTarPerm extractEntry lib/middleware/compress.js
+557 silly gunzTarPerm modified mode [ 'lib/middleware/compress.js', 438, 420 ]
+558 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+559 silly gunzTarPerm modified mode [ 'lib/middleware/urlencoded.js', 438, 420 ]
+560 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+561 silly gunzTarPerm modified mode [ 'lib/middleware/bodyParser.js', 438, 420 ]
+562 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+563 silly gunzTarPerm modified mode [ 'lib/middleware/vhost.js', 438, 420 ]
+564 silly gunzTarPerm extractEntry lib/middleware/logger.js
+565 silly gunzTarPerm modified mode [ 'lib/middleware/logger.js', 438, 420 ]
+566 silly gunzTarPerm extractEntry Readme.md
+567 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+568 silly lockFile fb43e837-24579-0-6449573857244104-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+569 silly lockFile fb43e837-24579-0-6449573857244104-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+570 silly lockFile 98caa523-24579-0-6449573857244104-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz
+571 silly lockFile 98caa523-24579-0-6449573857244104-tmp-tgz tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/tmp.tgz
+572 verbose tar pack [ '/Users/Pets/.npm/connect/2.14.1/package.tgz',
+572 verbose tar pack   '/var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package' ]
+573 verbose tarball /Users/Pets/.npm/connect/2.14.1/package.tgz
+574 verbose folder /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+575 silly lockFile fb43e837-24579-0-6449573857244104-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+576 verbose lock tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package /Users/Pets/.npm/fb43e837-24579-0-6449573857244104-package.lock
+577 silly lockFile c0087fcf-s-npm-connect-2-14-1-package-tgz tar:///Users/Pets/.npm/connect/2.14.1/package.tgz
+578 verbose lock tar:///Users/Pets/.npm/connect/2.14.1/package.tgz /Users/Pets/.npm/c0087fcf-s-npm-connect-2-14-1-package-tgz.lock
+579 silly lockFile fb43e837-24579-0-6449573857244104-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+580 silly lockFile fb43e837-24579-0-6449573857244104-package tar:///var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624579-0.6449573857244104/package
+581 silly lockFile c0087fcf-s-npm-connect-2-14-1-package-tgz tar:///Users/Pets/.npm/connect/2.14.1/package.tgz
+582 silly lockFile c0087fcf-s-npm-connect-2-14-1-package-tgz tar:///Users/Pets/.npm/connect/2.14.1/package.tgz
+583 silly lockFile 1f3dc45c--Pets-npm-connect-2-14-1-package /Users/Pets/.npm/connect/2.14.1/package
+584 verbose lock /Users/Pets/.npm/connect/2.14.1/package /Users/Pets/.npm/1f3dc45c--Pets-npm-connect-2-14-1-package.lock
+585 silly lockFile 1f3dc45c--Pets-npm-connect-2-14-1-package /Users/Pets/.npm/connect/2.14.1/package
+586 silly lockFile 1f3dc45c--Pets-npm-connect-2-14-1-package /Users/Pets/.npm/connect/2.14.1/package
+587 verbose tar unpack /Users/Pets/.npm/connect/2.14.1/package.tgz
+588 silly lockFile 93979224--Pets-npm-connect-2-14-1-package tar:///Users/Pets/.npm/connect/2.14.1/package
+589 verbose lock tar:///Users/Pets/.npm/connect/2.14.1/package /Users/Pets/.npm/93979224--Pets-npm-connect-2-14-1-package.lock
+590 silly lockFile c0087fcf-s-npm-connect-2-14-1-package-tgz tar:///Users/Pets/.npm/connect/2.14.1/package.tgz
+591 verbose lock tar:///Users/Pets/.npm/connect/2.14.1/package.tgz /Users/Pets/.npm/c0087fcf-s-npm-connect-2-14-1-package-tgz.lock
+592 silly gunzTarPerm modes [ '755', '644' ]
+593 silly gunzTarPerm extractEntry package.json
+594 silly gunzTarPerm extractEntry .npmignore
+595 silly gunzTarPerm extractEntry LICENSE
+596 silly gunzTarPerm extractEntry index.js
+597 silly gunzTarPerm extractEntry .travis.yml
+598 silly gunzTarPerm extractEntry Readme.md
+599 silly gunzTarPerm extractEntry lib/cache.js
+600 silly gunzTarPerm extractEntry lib/connect.js
+601 silly gunzTarPerm extractEntry lib/index.js
+602 silly gunzTarPerm extractEntry lib/patch.js
+603 silly gunzTarPerm extractEntry lib/proto.js
+604 silly gunzTarPerm extractEntry lib/utils.js
+605 silly gunzTarPerm extractEntry lib/middleware/basicAuth.js
+606 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+607 silly gunzTarPerm extractEntry lib/middleware/favicon.js
+608 silly gunzTarPerm extractEntry lib/middleware/json.js
+609 silly gunzTarPerm extractEntry lib/middleware/limit.js
+610 silly gunzTarPerm extractEntry lib/middleware/directory.js
+611 silly gunzTarPerm extractEntry lib/middleware/methodOverride.js
+612 silly gunzTarPerm extractEntry lib/middleware/multipart.js
+613 silly gunzTarPerm extractEntry lib/middleware/query.js
+614 silly gunzTarPerm extractEntry lib/middleware/responseTime.js
+615 silly gunzTarPerm extractEntry lib/middleware/session.js
+616 silly gunzTarPerm extractEntry lib/middleware/csrf.js
+617 silly gunzTarPerm extractEntry lib/middleware/static.js
+618 silly gunzTarPerm extractEntry lib/middleware/cookieSession.js
+619 silly gunzTarPerm extractEntry lib/middleware/staticCache.js
+620 silly gunzTarPerm extractEntry lib/middleware/cookieParser.js
+621 silly gunzTarPerm extractEntry lib/middleware/timeout.js
+622 silly gunzTarPerm extractEntry lib/middleware/compress.js
+623 silly gunzTarPerm extractEntry lib/middleware/urlencoded.js
+624 silly gunzTarPerm extractEntry lib/middleware/bodyParser.js
+625 silly gunzTarPerm extractEntry lib/middleware/vhost.js
+626 silly gunzTarPerm extractEntry lib/middleware/logger.js
+627 silly lockFile 93979224--Pets-npm-connect-2-14-1-package tar:///Users/Pets/.npm/connect/2.14.1/package
+628 silly lockFile 93979224--Pets-npm-connect-2-14-1-package tar:///Users/Pets/.npm/connect/2.14.1/package
+629 silly lockFile c0087fcf-s-npm-connect-2-14-1-package-tgz tar:///Users/Pets/.npm/connect/2.14.1/package.tgz
+630 silly lockFile c0087fcf-s-npm-connect-2-14-1-package-tgz tar:///Users/Pets/.npm/connect/2.14.1/package.tgz
+631 verbose chmod /Users/Pets/.npm/connect/2.14.1/package.tgz 644
+632 verbose chown /Users/Pets/.npm/connect/2.14.1/package.tgz [ 501, 20 ]
+633 silly lockFile f8e8fbe9-s-org-connect-connect-2-14-1-tgz https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+634 silly lockFile f8e8fbe9-s-org-connect-connect-2-14-1-tgz https://registry.npmjs.org/connect/-/connect-2.14.1.tgz
+635 silly lockFile ddd6af88-connect-2-14-1 connect@2.14.1
+636 silly lockFile ddd6af88-connect-2-14-1 connect@2.14.1
+637 info retry fetch attempt 3 at 21:04:56
+638 verbose fetch to= /var/folders/zp/6lsffnj55m3fs8jwyj9273lm0000gn/T/npm-1030-aBaR-QTf/1397156624578-0.6543624475598335/tmp.tgz
+639 http GET https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+640 error fetch failed https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+641 silly lockFile 5f5c3e55-pmjs-org-cookie-cookie-0-1-1-tgz https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+642 silly lockFile 5f5c3e55-pmjs-org-cookie-cookie-0-1-1-tgz https://registry.npmjs.org/cookie/-/cookie-0.1.1.tgz
+643 silly lockFile 90c02103-cookie-0-1-1 cookie@0.1.1
+644 silly lockFile 90c02103-cookie-0-1-1 cookie@0.1.1
+645 verbose about to build /Users/Pets/Desktop/myfirstserver/node_modules/express
+646 info /Users/Pets/Desktop/myfirstserver/node_modules/express unbuild
+647 info preuninstall express@3.5.1
+648 info uninstall express@3.5.1
+649 verbose true,/Users/Pets/Desktop/myfirstserver/node_modules,/Users/Pets/Desktop/myfirstserver/node_modules unbuild express@3.5.1
+650 verbose /Users/Pets/Desktop/myfirstserver/node_modules/.bin,[object Object] binRoot
+651 info postuninstall express@3.5.1
+652 error Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+652 error     at SecurePair.<anonymous> (tls.js:1370:32)
+652 error     at SecurePair.EventEmitter.emit (events.js:92:17)
+652 error     at SecurePair.maybeInitFinished (tls.js:982:10)
+652 error     at CleartextStream.read [as _read] (tls.js:469:13)
+652 error     at CleartextStream.Readable.read (_stream_readable.js:320:10)
+652 error     at EncryptedStream.write [as _write] (tls.js:366:25)
+652 error     at doWrite (_stream_writable.js:226:10)
+652 error     at writeOrBuffer (_stream_writable.js:216:5)
+652 error     at EncryptedStream.Writable.write (_stream_writable.js:183:11)
+652 error     at write (_stream_readable.js:583:24)
+652 error     at flow (_stream_readable.js:592:7)
+652 error     at Socket.pipeOnReadable (_stream_readable.js:624:5)
+653 error If you need help, you may report this *entire* log,
+653 error including the npm and node versions, at:
+653 error     <http://github.com/npm/npm/issues>
+654 error System Darwin 12.5.0
+655 error command "node" "/usr/local/bin/npm" "install" "express"
+656 error cwd /Users/Pets/Desktop/myfirstserver
+657 error node -v v0.10.26
+658 error npm -v 1.4.3
+659 verbose exit [ 1, true ]
