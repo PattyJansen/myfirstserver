@@ -17,4 +17,53 @@ html{
          linear-gradient( 200deg, transparent 150%, rgba(0, 0, 0, 0.1) 150% ),
          linear-gradient( 200deg, transparent 160%, rgba(0, 0, 0, 0.1) 160% ),
         orange;}
+
+h1 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3em;
+  color: grey;
+  opacity: 0.5;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.5em;
+  color: #FF0099;
+}
+
+h3 {
+  font-family: helvetica;
+  font-style: bold;
+  font-weight: 300;
+  font-size: 0.7em;
+  color: black;
+}
+
+h4 {
+  font-family: helvetica;
+  font-style: bold;
+  font-weight: 300;
+  font-size: 4em;
+  color: white;
+}
+
+
+h5 {
+  font-style: italic;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 4em;
+  color: green;
+}
+
+h6 {
+  font-style: italic;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 3em;
+  color: blue;
+}
+
        
