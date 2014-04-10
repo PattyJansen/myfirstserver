@@ -56,6 +56,7 @@ h5 {
   font-weight: 400;
   font-size: 4em;
   color: green;
+  text-shadow: 5px 5px 5px #FF0000;
 }
 
 h6 {
@@ -64,6 +65,20 @@ h6 {
   font-weight: 400;
   font-size: 3em;
   color: blue;
+}
+
+div
+{
+-ms-transform: skew(10deg,5deg); /* IE 9 */
+-webkit-transform: skew(10deg,5deg); /* Chrome, Safari, Opera */
+transform: skew(10deg,5deg);
+}
+
+div
+{
+-webkit-border-image:url("http://m.c.lnkd.licdn.com/mpr/pub/image-ioivm44h01ZaaEhYVyvKGB_zBAlN726-eo9HAufCB-lhw0GaioiHAOAhB7Kd7ChmM_qc/square-dms.jpg") 10 10 round; /* Safari 5 */
+-o-border-image:url("http://m.c.lnkd.licdn.com/mpr/pub/image-ioivm44h01ZaaEhYVyvKGB_zBAlN726-eo9HAufCB-lhw0GaioiHAOAhB7Kd7ChmM_qc/square-dms.jpg") 10 10 round; /* Opera 10.5-12.1 */
+border-image:url("http://m.c.lnkd.licdn.com/mpr/pub/image-ioivm44h01ZaaEhYVyvKGB_zBAlN726-eo9HAufCB-lhw0GaioiHAOAhB7Kd7ChmM_qc/square-dms.jpg") 10 10 round;
 }
 
        
