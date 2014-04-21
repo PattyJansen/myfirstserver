@@ -1,9 +1,20 @@
 {
-  "name": "hello-world",
-  "description": "hello world test app",
+  "name": "simple-skeleton",
   "version": "0.0.1",
-  "private": true,
+  "description": "Simple Server for Coding the Humanities Students",
+  "main": "server.js",
   "dependencies": {
-    "express": "3.x"
-  }
+    "express": "~3.5.1"
+  },
+  "devDependencies": {
+    "bower": "~1.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "author": "Yeehaa",
+  "license": "MIT"
 }

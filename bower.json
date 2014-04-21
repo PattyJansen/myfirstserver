@@ -1,8 +1,24 @@
 {
-  "name": "my-polymer-project",
+  "name": "simple-server",
   "version": "0.0.0",
+  "homepage": "https://github.com/yeehaa123/simple-skeleton",
+  "authors": [
+    "Yeehaa <medialoperations@gmail.com>"
+  ],
+  "description": "Simple Server for Coding the Humanities Students",
+  "main": "server.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.2.2",
-    "platform": "Polymer/platform#~0.2.2"
+    "jquery": "~2.1.0",
+    "d3": "~3.4.5",
+    "firebase": "~1.0.11"
   }
 }
