@@ -1,0 +1,44 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer-ajax/polymer-ajax.html">
+
+<polymer-element name="new-element">
+  <template>
+     <form>
+        <div class="post-title">
+            <input id="post-title" type="text" placeholder="Post Title">
+        </div>
+        <div class="post-content">
+            <textarea id="post-content" type="text" placeholder="Post Content"></textarea>
+        </div>
+        <button type="submit" class="submit">Submit</button>
+    </form>
+
+
+  </template>
+
+   <script>
+
+   Polymer('new-element', {
+      ready: function() {
+      var url = "https://blistering-fire-8418.firebaseio.com/";
+
+	  var firebaseRef = new Firebase(url);
+
+	  function funct1(evt)
+      {
+ 	  var title = $('#post-title').val();
+      var post = $('#post-content').val();
+
+      var date = Date();
+
+      firebaseRef.set({Title: title, Content: post, Date: date});
+      evt.preventDefault();
+      }
+
+     var submit = document.getElementsByTagName('button')[0];
+
+     submit.onclick = funct1;
+ 	   }
+      });
+ </script>
+</polymer-element>
