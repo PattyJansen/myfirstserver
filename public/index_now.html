@@ -7,9 +7,8 @@
   <script src="./vendor/firebase/firebase.js"></script>
 </head>
 
-<h3>A demonstration of how to access a File Upload Button</h3>
 
-<form>
+    <form>
         <div class="post-title">
             <input id="post-title" type="text" placeholder="Post Title">
         </div>
@@ -25,24 +24,24 @@
 <script>
 
 
-var url = "https://blistering-fire-8418.firebaseio.com/";
+	var url = "https://blistering-fire-8418.firebaseio.com/";
 
-var firebaseRef = new Firebase(url);
+	var firebaseRef = new Firebase(url);
 
-function funct1(evt)
-{
- var title = $('#post-title').val();
- var post = $('#post-content').val();
+	function funct1(evt)
+	{
+ 	var title = $('#post-title').val();
+ 	var post = $('#post-content').val();
 
-  var date = Date();
+ 	 var date = Date();
 
-  firebaseRef.set({Title: title, Content: post, Date: date});
-  evt.preventDefault();
-}
+  	firebaseRef.set({Title: title, Content: post, Date: date});
+  	evt.preventDefault();
+	}
 
-var submit = document.getElementsByTagName('button')[0];
+	var submit = document.getElementsByTagName('button')[0];
 
-submit.onclick = funct1;
+	submit.onclick = funct1;
 
 </script>
 
