@@ -1,6 +1,7 @@
 <link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer-ajax/polymer-ajax.html">
 
-<polymer-element name="my-element">
+<polymer-element name="new-element">
   <template>
      <form>
         <div class="post-title">
@@ -16,27 +17,28 @@
   </template>
 
    <script>
-    (function() {
-      Polymer('my-element', {
 
-var url = "https://blistering-fire-8418.firebaseio.com/";
+   Polymer('new-element', {
+      ready: function() {
+      var url = "https://blistering-fire-8418.firebaseio.com/";
 
-var firebaseRef = new Firebase(url);
+	  var firebaseRef = new Firebase(url);
 
-function funct1(evt)
-{
- var title = $('#post-title').val();
- var post = $('#post-content').val();
+	  function funct1(evt)
+      {
+ 	  var title = $('#post-title').val();
+      var post = $('#post-content').val();
 
-  var date = Date();
+      var date = Date();
 
-  firebaseRef.set({Title: title, Content: post, Date: date});
-  evt.preventDefault();
-}
+      firebaseRef.set({Title: title, Content: post, Date: date});
+      evt.preventDefault();
+      }
 
-var submit = document.getElementsByTagName('button')[0];
+     var submit = document.getElementsByTagName('button')[0];
 
-submit.onclick = funct1;
- })();
+     submit.onclick = funct1;
+ 	   }
+      });
  </script>
 </polymer-element>
