@@ -19,6 +19,7 @@
   "dependencies": {
     "jquery": "~2.1.0",
     "d3": "~3.4.5",
-    "firebase": "~1.0.11"
+    "firebase": "~1.0.11",
+    "polymer-ajax": "Polymer/polymer-ajax#~0.2.3"
   }
 }

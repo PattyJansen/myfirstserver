@@ -1,0 +1,53 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer-ajax/polymer-ajax.html">
+
+
+<polymer-element name="firebase-element" attributes="user">
+  
+  <style type="text/css">
+  </style>
+
+  <template>
+
+    <div>
+      <form id="fireForm">
+        <fieldset>
+        <label>
+          firebase
+            <input value="{{user.firebase}}"/>
+        </label>
+        <label>
+           url
+            <input value="{{user.url}}"/>
+        </label>
+        <label>
+           description
+            <input value="{{user.description}}"/>
+        </label>
+        <button type="submit" on-click="saveForm">Submit</button>
+      </fieldset>
+      </form>
+    </div>
+
+    <polymer-ajax id="ajax" id="postUpdates" url="{{user.firebase}}" handleAs="json" params="{{user}}" response="created" method="POST"></polymer-ajax> 
+
+
+  </template>
+
+  <script>
+    Polymer('firebase-element', {
+        saveForm: function() {
+                      this.$.postUpdates.url= this.user.firebase;
+                      this.$.postUpdates.params = this.user.url + this.user.description;
+                      this.$.postUpdates.go();
+                    },
+         created: function () {
+                        this.user = {
+                            url: "",
+                            description: ""
+                           }
+                        }
+                    });
+  </script>
+
+</polymer-element>
