@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+
+<polymer-element name="change-mask">
+  <template>
+    <style>
+    </style>
+  <div>
+      <form id="fireForm">
+        <fieldset>
+        <label>
+          firebase
+            <input value="{{user.firebase}}"/>
+        </label>
+        <label>
+           url
+            <input value="{{user.url}}"/>
+        </label>
+        <label>
+           description
+            <input value="{{user.description}}"/>
+        </label>
+        <button type="submit" on-click="saveForm">Submit</button>
+      </fieldset>
+      </form>
+    </div>
+  </template>
+  <script>
+    Polymer('change-mask', {
+        }
+
+    });
+</script>
+</polymer-element>

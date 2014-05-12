@@ -1,0 +1,29 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer-ajax/polymer-ajax.html">
+
+
+<polymer-element name="change-element">
+  
+  <style type="text/css">
+  </style>
+
+  <template>
+
+    <div>
+      <form id="formForm">
+        <fieldset>
+        <button type="submit" on-click="changeMask">Submit</button>
+      </fieldset>
+      </form>
+    </div>
+  </template>
+    <script>
+        Polymer("image-mask", {
+        changeMask: function () {
+         if ( clicked === "circle"())
+         { return $("square") //set this elements opacity to full
+          } else { //its clearly not Text1/2/3
+         $(clicked === "square" || clicked === "triangle" || clicked === "triangle") {return "circle"},
+    });
+    </script>
+</polymer-element>
